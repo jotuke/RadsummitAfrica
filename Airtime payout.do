@@ -6,7 +6,7 @@ use "X:\Box Sync\IPA_KEN_Projects\IPA_KEN_KYEOP_20095AA\07&08 Questionnaires & D
 		gen survey_date = dofc(submissiondate)
 				format  survey_date %td
 				la var survey_date "Date of interview submission - Short date"
-				keep  if survey_date>date("05/03/2020", "DMY") & survey_date<date("07/03/2020", "DMY")			
+				keep  if survey_date>date("06/03/2020", "DMY") & survey_date<date("09/03/2020", "DMY")			// Updates the dates for the new surveys
 				
 keep sec6_pri_phon accgift accgiftnum accgiftnumnewcon accgiftnumnew resp_id2 youthname giftnumcomp submissiondate survey_date sec1b_studyconsent sec7_interv_status sec7_interv_status_oth
 
