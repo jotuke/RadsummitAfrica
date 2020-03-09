@@ -1,6 +1,11 @@
 clear
 use "X:\Box Sync\IPA_KEN_Projects\IPA_KEN_KYEOP_20095AA\07&08 Questionnaires & Data\02 Baseline [2020]\05_data\02_survey\1_BDS/YEP BDS AND GRANT_BL.dta"
 
+//The dofile need to use globals instead of the locals
+
+
+*This section
+
 
 	//gen airtime payment dates)
 		gen survey_date = dofc(submissiondate)
